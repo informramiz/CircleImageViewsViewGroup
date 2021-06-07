@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="work_background_color">#4DBC2727</color>
+    <color name="navigation_background_color">#4D27BC47</color>
+    <color name="nature_background_color">#4D3F51B5</color>
+    <color name="grocery_store_background_color">#4D544943</color>
 </resources>

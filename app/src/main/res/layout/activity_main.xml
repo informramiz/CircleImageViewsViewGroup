@@ -4,15 +4,149 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_work"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/work_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_work_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_navigation"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/navigation_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="0"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_nature"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/nature_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_nature_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="40"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_grocery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/grocery_store_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_grocery_store_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="80"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <!--  Separation  -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_navigation2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/navigation_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="120"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_nature2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/nature_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_nature_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="160"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_grocery2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/grocery_store_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_grocery_store_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="200"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <!--  Separation  -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_navigation3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/navigation_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="240"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_nature3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/nature_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_nature_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="280"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ic_grocery3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/grocery_store_background_color"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_grocery_store_24"
+        app:layout_constraintCircle="@id/ic_work"
+        app:layout_constraintCircleRadius="76dp"
+        app:layout_constraintCircleAngle="320"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.CircleImageView"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
